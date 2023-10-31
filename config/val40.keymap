@@ -11,16 +11,6 @@
 #include <dt-bindings/zmk/rgb.h>
 
 / {
-    macros {
-        ZMK_MACRO(mc_pw,
-
-        wait-ms = <1>;
-        tap-ms = <1>;
-        bindings = <&kp CAPS &kp T &kp CAPS &kp U &kp M &kp O &kp T &kp D &kp E &kp N &kp N1 &kp N2 &kp RET>;
-
-        )
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
